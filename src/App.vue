@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 const message = ref<string>('hello world')
 </script>
@@ -10,5 +10,4 @@ const message = ref<string>('hello world')
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
