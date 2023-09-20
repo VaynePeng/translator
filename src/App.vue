@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const message = ref<string>('hello world')
 </script>
 
 <template>
-  <div class="bg-[#f2f4fb]">
-    {{ message }}
+  <div class="w-[100vw] h-[100vh] overflow-hidden bg-[#f2f4fb]">
+    TEST
   </div>
 </template>
 
