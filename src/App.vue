@@ -5,7 +5,7 @@ const message = ref<string>('hello world')
 </script>
 
 <template>
-  <div>
+  <div class="bg-[#f2f4fb]">
     {{ message }}
   </div>
 </template>

@@ -2,12 +2,11 @@
   "name": "translator",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint --ext .js.ts,.vue"
   },
   "dependencies": {
     "vue": "^3.3.4"
@@ -17,6 +16,7 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.15",
     "eslint": "^8.49.0",
+    "postcss": "^8.4.30",
     "postcss-import": "^15.1.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",

@@ -1,4 +1,9 @@
 {
   "extends": "@antfu",
-  "rules": {}
+  "rules": {
+    "@stylistic/ts/comma-dangle": [
+      "error",
+      "never"
+    ]
+  }
 }
