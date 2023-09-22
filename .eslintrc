@@ -7,11 +7,6 @@
     ],
     "vue/html-self-closing": "off",
     "vue/singleline-html-element-content-newline": "off",
-    "antfu/top-level-function": "off",
-    "vue/block-tag-newline": {
-      "singleline": "always",
-      "multiline": "always",
-      "maxEmptyLines": 1
-    }
+    "antfu/top-level-function": "off"
   }
 }
