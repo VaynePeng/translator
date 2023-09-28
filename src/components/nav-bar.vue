@@ -10,7 +10,7 @@ const { toggleTheme } = useTheme()
       class="bg-sky-500 hover:bg-sky-600 rounded-full text-white px-5 py-1"
       @click="toggleTheme"
     >
-      切换模式
+      切换
     </button>
   </nav>
 </template>
