@@ -14,4 +14,3 @@ const { toggleTheme } = useTheme()
     </button> -->
   </nav>
 </template>
-@/hooks/useTheme
