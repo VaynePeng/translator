@@ -5,7 +5,7 @@ import ThemeCover from '@/components/theme-cover.vue'
 
 <template>
   <ThemeCover />
-  <div class="container w-[100vw] h-[100vh] overflow-hidden bg-white dark:bg-slate-800">
+  <div class="container w-[100vw] h-[100vh] overflow-hidden">
     <NavBar />
     <main>
       APP
