@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js.ts,.vue",
-    "typecheck": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "pre-commit": "type-check"
   },
   "dependencies": {
     "vue": "^3.3.4"
