@@ -46,5 +46,4 @@ const useTheme = (): UseTheme => {
   }
 }
 
-export type { Theme }
-export default useTheme
+export { useTheme as default, Theme }
