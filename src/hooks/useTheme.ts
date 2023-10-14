@@ -6,6 +6,11 @@ enum Theme {
   DARK = 'dark'
 }
 
+enum ThemeIcon {
+  LIGHT = 'icon-Sunny',
+  DARK = 'icon-Moon'
+}
+
 interface UseTheme {
   theme: Ref<Theme>
   toggleTheme: () => void
@@ -46,4 +51,4 @@ const useTheme = (): UseTheme => {
   }
 }
 
-export { useTheme as default, Theme }
+export { useTheme as default, Theme, ThemeIcon }

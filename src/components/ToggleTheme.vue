@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import useTheme, { Theme } from '@/hooks/useTheme'
+import { computed } from 'vue'
+import useTheme, { Theme, ThemeIcon } from '@/hooks/useTheme'
 
 import Icon from '@/components/Icon.vue'
 
 const { theme, toggleTheme } = useTheme()
+
+const themeIcon = computed<ThemeIcon>(() => theme.value === Theme.DARK ? ThemeIcon.DARK : ThemeIcon.LIGHT)
 </script>
 
 <template>
   <div class="inline-block cursor-pointer" @click="toggleTheme">
-    <Icon v-if="theme === Theme.LIGHT" class="w-9 h-9" icon="icon-Sunny" />
-    <Icon v-else class="w-9 h-9" icon="icon-Moon" />
+    <Icon class="w-9 h-9" :icon="themeIcon" />
   </div>
 </template>
