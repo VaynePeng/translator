@@ -1,0 +1,11 @@
+{
+  "name": "我的 PWA",
+  "icons": [
+    {
+      "src": "./assets/images/icon.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/"
+}
