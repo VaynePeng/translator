@@ -6,7 +6,7 @@ import Icon from '@/assets/images/icon.svg'
 
 <template>
   <nav class="h-14 px-4 md:px-8 shadow-sm dark:shadow-slate-600 mb-5 flex items-center justify-between">
-    <img class="w-9 h-9" :src="Icon" />
+    <img class="w-9 h-9 select-none" :src="Icon" />
     <!-- <ToggleTheme /> -->
   </nav>
 </template>
