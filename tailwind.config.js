@@ -4,7 +4,9 @@ export default {
   content: ['./src/**/*.{vue,jsx,tsx}'],
   theme: {
     extend: {
-      colors: {}
+      colors: {
+        theme: '#FAA27F'
+      }
     }
   },
   plugins: []
